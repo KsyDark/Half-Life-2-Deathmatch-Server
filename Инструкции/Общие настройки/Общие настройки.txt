@@ -1,0 +1,11 @@
+\hl2mp\cfg
+
+server.cfg - Основные настройки
+mapcycle_default.txt - Очередь переключения карт
+motd_default.txt - Текст приветсвия при подключении к серверу
+
+\hl2mp\maps
+Новые карты для сервера помещаем сюда.
+С сервера карты могут выгружаться медленно, поэтому сразу добавляем их в игру по пути:
+Пиратка - Half-Life 2 Deathmatch\hl2mp\download\maps
+Steam - SteamLibrary\steamapps\common\Half-Life 2 Deathmatch\hl2mp\download\maps
