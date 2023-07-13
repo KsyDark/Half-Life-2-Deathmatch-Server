@@ -1,2 +1,9 @@
 Распаковать в любое удобное место, запустить файл startserver.bat.
 В файле startserver.bat после +map указываем карту, которую сервер запустит первой.
+
+Для примера, залил сюда полностью настроенный сервер. Но, так как у github есть ограничение на объём файлов, я убрал из него все карты кроме одной, заархивировал а архив разбил на файлы менее 25 МБ. Чтобы его запустить, скачайте все архивы и распакуйте первый, остальное подтянется само, и тогда у вас сразу будет на руках рабочий сервер, но с одной картой.
+
+Extract to any convenient place, run the file startserver.bat.
+In the file startserver.bat after +map specify the map that the server will start first.
+
+For example, I've uploaded a fully configured server here. But, since github has a limitation on file size, I removed all but one map from it, archived it, and split the archive into files less than 25 MB. To run it, download all the archives and unzip the first one, the rest will pull up by itself, and then you will have a working server, but with one map.
