@@ -1,2 +1,3 @@
 # Half-Life-2-Deathmatch-Server
-Портативный, настроенный сервер с большим набором карт, запустил и играй. Также прилагаю подробные инструкции по созданию.
+Инструкции и набор ПО для создания своего сервера Half-Life 2 Deathmatch.
+Instructions and software kit for creating your own Half-Life 2 Deathmatch server
