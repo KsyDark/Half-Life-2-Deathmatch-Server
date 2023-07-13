@@ -1,8 +1,8 @@
 \hl2mp\cfg
 
-server.cfg - Основные настройки
-mapcycle_default.txt - Очередь переключения карт
-motd_default.txt - Текст приветсвия при подключении к серверу
+\hl2mp\cfg\server.cfg - Основные настройки
+\hl2mp\cfg\mapcycle_default.txt - Очередь переключения карт
+\hl2mp\cfg\motd_default.txt - Текст приветсвия при подключении к серверу
 
 \hl2mp\maps
 Новые карты для сервера помещаем сюда.
