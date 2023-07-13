@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221 -->
+<html class=" responsive" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Сообщество Steam :: Руководство :: Half-Life 2: Deathmatch Dedicated Server Installation Guide [ENG/RUS]</title>
+	<link rel="shortcut icon" href="https://steamcommunity.com/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/motiva_sans.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/buttons.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/shared_global.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/globalv2.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/apphub.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/modalContent.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/forums.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/workshop.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/workshop_itemdetails.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/sharedfiles_guide.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/main.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/shared_responsive.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/apphub_images.css" rel="stylesheet" type="text/css">
+<link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/header.css" rel="stylesheet" type="text/css">
+			<script async="" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/analytics.js.Без названия"></script><script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-33779068-1', 'auto', {
+					'sampleRate': 0.4				});
+				ga('set', 'dimension1', true );
+				ga('set', 'dimension2', 'External' );
+				ga('set', 'dimension3', 'sharedfiles' );
+				ga('set', 'dimension4', "sharedfiles\/filedetails" );
+				ga('send', 'pageview' );
+
+			</script>
+			<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Function.prototype.bind;
+	__PrototypePreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/prototype-1.7.js.Без названия"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Function.prototype.bind = __PrototypePreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[2] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.cloudflare.steamstatic.com\/public\/";</script><script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/_combined.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/global.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/jquery-1.11.1.min.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/tooltip.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/shared_global.js.Без названия"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.cloudflare.steamstatic.com\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=russian&amp;_cdn=cloudflare\" ><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/modalv2.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/modalContent.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/workshop_functions.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/sharedfiles_functions_logged_in.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/sharedfiles_guide_functions.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/manifest.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/libraries_b28b7af69.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/main.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/loyaltyrewards_manifest.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/shared_responsive_adapter.js.Без названия"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="A guide on how to install and start a Half-Life 2: Deathmatch Dedicated server....">
+			
+	<meta name="twitter:site" content="@steam">
+
+						<meta property="og:title" content="Сообщество Steam :: Руководство :: Half-Life 2: Deathmatch Dedicated Server Installation Guide [ENG/RUS]">
+					<meta property="twitter:title" content="Сообщество Steam :: Руководство :: Half-Life 2: Deathmatch Dedicated Server Installation Guide [ENG/RUS]">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="A guide on how to install and start a Half-Life 2: Deathmatch Dedicated server....">
+					<meta property="twitter:description" content="A guide on how to install and start a Half-Life 2: Deathmatch Dedicated server....">
+			
+	
+			<link rel="image_src" href="https://steamuserimages-a.akamaihd.net/ugc/1011562618094071827/4584A1FB8AD506AE9C3C068B9BB0DCFECFCD35AA/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true">
+		<meta property="og:image" content="https://steamuserimages-a.akamaihd.net/ugc/1011562618094071827/4584A1FB8AD506AE9C3C068B9BB0DCFECFCD35AA/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true">
+		<meta name="twitter:image" content="https://steamuserimages-a.akamaihd.net/ugc/1011562618094071827/4584A1FB8AD506AE9C3C068B9BB0DCFECFCD35AA/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true">
+				
+	
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/communityawardsapp.css"></head>
+<body class="apphub_blue responsive_page">
+
+
+<div class="responsive_page_frame with_header">
+						<div class="responsive_page_menu_ctn mainmenu">
+				<div class="responsive_page_menu" id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<!-- profile area -->
+								<div class="responsive_menu_user_area">
+									<div class="responsive_menu_user_persona persona offline">
+										<div class="playerAvatar offline">
+											<a href="https://steamcommunity.com/id/andreym/">
+												<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3.jpg" srcset="https://avatars.cloudflare.steamstatic.com/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3.jpg 1x, https://avatars.cloudflare.steamstatic.com/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3_medium.jpg 2x">											</a>
+										</div>
+										<a href="https://steamcommunity.com/id/andreym/" data-miniprofile="172717181">KsyDark</a>									</div>
+
+																												<div class="responsive_menu_cartwallet_area persona offline">
+																																		<div class="responsive_menu_user_wallet">
+													<a href="https://store.steampowered.com/account/">
+														Кошелёк <b>(36,97 pуб.)</b>													</a>
+												</div>
+																					</div>
+																	</div>
+
+																									<div class="menuitem notifications_item">
+										Уведомления										<div class="notification_count_total_ctn no_notifications">
+											<span class="notification_envelope"></span>
+											<span class="notification_count">0</span>
+										</div>
+									</div>
+									<div class="notification_submenu" style="display: none;" data-submenuid="notifications">
+										
+									<a data-notification-type="4" class="popup_menu_item notification_ctn header_notification_comments" href="https://steamcommunity.com/id/andreym/commentnotifications/">
+				<span class="notification_icon"></span>Новых комментариев: <span class="notification_count">0</span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="5" class="popup_menu_item notification_ctn header_notification_items" href="https://steamcommunity.com/id/andreym/inventory/">
+				<span class="notification_icon"></span>Новых предметов: <span class="notification_count">0</span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+								<a data-notification-type="6" class="popup_menu_item notification_ctn header_notification_invites" href="https://steamcommunity.com/id/andreym/home/invites/">
+				<span class="notification_icon"></span>Новых приглашений: <span class="notification_count">0</span>			</a>
+
+					<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="8" class="popup_menu_item notification_ctn header_notification_gifts" href="https://steamcommunity.com/id/andreym/inventory/#pending_gifts">
+				<span class="notification_icon"></span>Новых подарков: <span class="notification_count">0</span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="9" class="popup_menu_item notification_ctn header_notification_offlinemessages" href="javascript:void(0)" onclick="LaunchWebChat(); HideMenu( &#39;header_notification_link&#39;, &#39;header_notification_dropdown&#39; ); return false;">
+				<span class="notification_icon"></span>Новых сообщений: <span class="notification_count">0</span>			</a>
+								<a data-notification-type="1" class="popup_menu_item notification_ctn hide_when_empty header_notification_tradeoffers" href="https://steamcommunity.com/id/andreym/tradeoffers/">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span>Новых предложений обмена: <span class="notification_count">0</span>					</a>
+								<a data-notification-type="2" class="popup_menu_item notification_ctn hide_when_empty header_notification_asyncgame" href="https://steamcommunity.com/id/andreym/gamenotifications">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span>Новых ходов: <span class="notification_count">0</span>					</a>
+								<a data-notification-type="3" class="popup_menu_item notification_ctn hide_when_empty header_notification_moderatormessage" href="https://steamcommunity.com/id/andreym/moderatormessages">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span>Уведомлений в сообществе: <span class="notification_count">0</span>					</a>
+								<a data-notification-type="10" class="popup_menu_item notification_ctn hide_when_empty header_notification_helprequestreply" href="https://help.steampowered.com/ru/wizard/HelpRequests">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span>Ответов от поддержки: <span class="notification_count">0</span>					</a>
+															</div>
+									<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		Магазин	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="https://store.steampowered.com/">Главная</a>
+					<a class="submenuitem" href="https://store.steampowered.com/explore/">Рекомендации</a>
+				<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Список желаемого</a>
+		<a class="submenuitem" href="https://store.steampowered.com/points/shop/">Магазин очков</a>	
+       	<a class="submenuitem" href="https://store.steampowered.com/news/">Новости</a>
+					<a class="submenuitem" href="https://store.steampowered.com/stats/">Статистика</a>
+					</div>
+
+
+			<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+			Сообщество		</a>
+		<div class="submenu_community" style="display: none;" data-submenuid="community">
+			<a class="submenuitem" href="https://steamcommunity.com/">Главная</a>
+			<a class="submenuitem" href="https://steamcommunity.com/discussions/">Обсуждения</a>
+			<a class="submenuitem" href="https://steamcommunity.com/workshop/">Мастерская</a>
+			<a class="submenuitem" href="https://steamcommunity.com/market/">Торговая площадка</a>
+			<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Трансляции</a>
+											</div>
+		
+
+			<a class="menuitem supernav username persona_name_text_content" href="https://steamcommunity.com/id/andreym/home/" data-tooltip-type="selector" data-tooltip-content=".submenu_username">
+			Вы и друзья		</a>
+		<div class="submenu_username" style="display: none;" data-submenuid="username">
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/home/">Активность</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/">Профиль</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/friends/">Друзья</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/groups/">Группы</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/screenshots/">Контент</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/badges/">Значки</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/inventory/">Инвентарь</a>		</div>
+	
+	
+	<a class="menuitem" href="https://help.steampowered.com/ru/">
+		Поддержка	</a>
+
+							<div class="minor_menu_items">
+																	<a class="menuitem" href="https://store.steampowered.com/account/">Об аккаунте</a>
+									<a class="menuitem" href="https://store.steampowered.com/account/preferences">Настройки</a>
+																								<div class="menuitem change_language_action">
+									Изменить язык								</div>
+																									<div class="menuitem" onclick="Logout();">Сменить пользователя</div>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										Полная версия									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/logo_valve_footer.png"></div>
+								© Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">#footer_privacy_policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">#footer_legal</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">#footer_ssa</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">#footer_refunds</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu" id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;#filter_toggle&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/header_menu_hamburger.png" height="100%">
+													<div class="responsive_header_notification_badge_ctn">
+								<div class="responsive_header_notification_badge notification_count_total_ctn no_notifications">
+									<span class="notification_count">0</span>
+								</div>
+							</div>
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/">
+						<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/logo_steam.svg" width="176" height="44">
+					</a>
+							</span>
+		</div>
+
+			<div class="supernav_container">
+	<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		МАГАЗИН	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="https://store.steampowered.com/">Главная</a>
+					<a class="submenuitem" href="https://store.steampowered.com/explore/">Рекомендации</a>
+				<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Список желаемого</a>
+		<a class="submenuitem" href="https://store.steampowered.com/points/shop/">Магазин очков</a>	
+       	<a class="submenuitem" href="https://store.steampowered.com/news/">Новости</a>
+					<a class="submenuitem" href="https://store.steampowered.com/stats/">Статистика</a>
+							<a class="submenuitem" href="https://store.steampowered.com/about/">О STEAM</a>
+			</div>
+
+
+			<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+			СООБЩЕСТВО		</a>
+		<div class="submenu_community" style="display: none;" data-submenuid="community">
+			<a class="submenuitem" href="https://steamcommunity.com/">Главная</a>
+			<a class="submenuitem" href="https://steamcommunity.com/discussions/">Обсуждения</a>
+			<a class="submenuitem" href="https://steamcommunity.com/workshop/">Мастерская</a>
+			<a class="submenuitem" href="https://steamcommunity.com/market/">Торговая площадка</a>
+			<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Трансляции</a>
+											</div>
+		
+
+			<a class="menuitem supernav username persona_name_text_content" href="https://steamcommunity.com/id/andreym/home/" data-tooltip-type="selector" data-tooltip-content=".submenu_username">
+			KsyDark		</a>
+		<div class="submenu_username" style="display: none;" data-submenuid="username">
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/home/">Активность</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/">Профиль</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/friends/">Друзья</a>
+			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/groups/">Группы</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/screenshots/">Контент</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/badges/">Значки</a>			<a class="submenuitem" href="https://steamcommunity.com/id/andreym/inventory/">Инвентарь</a>		</div>
+	
+						<a class="menuitem" href="https://steamcommunity.com/chat/">
+				Чат			</a>
+			
+	<a class="menuitem" href="https://help.steampowered.com/ru/">
+		ПОДДЕРЖКА	</a>
+	</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div id="global_action_menu">
+									<div class="header_installsteam_btn header_installsteam_btn_gray">
+
+						<a class="header_installsteam_btn_content" href="https://store.steampowered.com/about/">
+							Установить Steam						</a>
+					</div>
+				
+				
+										<!-- notification inbox area -->
+																								<div id="header_notification_area">
+									<script type="text/javascript">$J(EnableNotificationCountPolling);</script>
+		<div id="header_notification_link" class="header_notification_btn global_header_toggle_button notification_count_total_ctn no_notifications" onclick="ShowMenu( this, &#39;header_notification_dropdown&#39;, &#39;right&#39; );">
+			<span class="notification_count">0</span>
+			<span class="header_notification_envelope">
+				<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/header_menu_notifications.png" width="11" height="8">
+			</span>
+		</div>
+	
+			<div class="popup_block_new" id="header_notification_dropdown" style="display: none;">
+			<div class="popup_body popup_menu">
+									<a data-notification-type="4" class="popup_menu_item notification_ctn header_notification_comments" href="https://steamcommunity.com/id/andreym/commentnotifications/">
+				<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Новых комментариев: 1</span><span class="notification_count_string plural" style="">Новых комментариев: <span class="notification_count">0</span></span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="5" class="popup_menu_item notification_ctn header_notification_items" href="https://steamcommunity.com/id/andreym/inventory/">
+				<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Новых предметов в инвентаре: 1</span><span class="notification_count_string plural" style="">Новых предметов в инвентаре: <span class="notification_count">0</span></span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+								<a data-notification-type="6" class="popup_menu_item notification_ctn header_notification_invites" href="https://steamcommunity.com/id/andreym/home/invites/">
+				<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Новых приглашений: 1</span><span class="notification_count_string plural" style="">Новых приглашений: <span class="notification_count">0</span></span>			</a>
+
+					<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="8" class="popup_menu_item notification_ctn header_notification_gifts" href="https://steamcommunity.com/id/andreym/inventory/#pending_gifts">
+				<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Новых подарков: 1</span><span class="notification_count_string plural" style="">Новых подарков: <span class="notification_count">0</span></span>			</a>
+			<div class="header_notification_dropdown_seperator"></div>
+						<a data-notification-type="9" class="popup_menu_item notification_ctn header_notification_offlinemessages" href="javascript:void(0)" onclick="LaunchWebChat(); HideMenu( &#39;header_notification_link&#39;, &#39;header_notification_dropdown&#39; ); return false;">
+				<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Непрочитанных сообщений: 1</span><span class="notification_count_string plural" style="">Непрочитанных сообщений: <span class="notification_count">0</span></span>			</a>
+								<a data-notification-type="1" class="popup_menu_item notification_ctn hide_when_empty header_notification_tradeoffers" href="https://steamcommunity.com/id/andreym/tradeoffers/">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Новых предложений обмена: 1</span><span class="notification_count_string plural" style="">Новых предложений обмена: <span class="notification_count">0</span></span>					</a>
+								<a data-notification-type="2" class="popup_menu_item notification_ctn hide_when_empty header_notification_asyncgame" href="https://steamcommunity.com/id/andreym/gamenotifications">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Ожиданий ходов: 1</span><span class="notification_count_string plural" style="">Ожиданий ходов: <span class="notification_count">0</span></span>					</a>
+								<a data-notification-type="3" class="popup_menu_item notification_ctn hide_when_empty header_notification_moderatormessage" href="https://steamcommunity.com/id/andreym/moderatormessages">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Уведомлений в сообществе: 1</span><span class="notification_count_string plural" style="">Уведомлений в сообществе: <span class="notification_count">0</span></span>					</a>
+								<a data-notification-type="10" class="popup_menu_item notification_ctn hide_when_empty header_notification_helprequestreply" href="https://help.steampowered.com/ru/wizard/HelpRequests">
+						<div class="header_notification_dropdown_seperator"></div>
+						<span class="notification_icon"></span><span class="notification_count_string singular" style="display: none;">Ответов от службы поддержки: 1</span><span class="notification_count_string plural" style="">Ответов от службы поддержки: <span class="notification_count">0</span></span>					</a>
+									</div>
+		</div>
+							</div>
+					<span class="pulldown global_action_link persona_name_text_content" id="account_pulldown" onclick="ShowMenu( this, &#39;account_dropdown&#39;, &#39;right&#39;, &#39;bottom&#39;, true );">
+						KsyDark					</span>
+					<div class="popup_block_new" id="account_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+															<a class="popup_menu_item" href="https://steamcommunity.com/id/andreym/">Открыть профиль</a>
+								<a class="popup_menu_item" href="https://store.steampowered.com/account/">Об аккаунте</a>
+																						<a class="popup_menu_item" href="javascript:Logout();">Выйти: <span class="persona online">artur9523</span></a>
+																						<a class="popup_menu_item" href="https://store.steampowered.com/account/preferences/">Настройки</a>
+							
+															<span class="popup_menu_item" id="account_language_pulldown">Изменить язык</span>
+								<div class="popup_block_new" id="language_dropdown" style="display: none;">
+									<div class="popup_body popup_menu">
+																																													<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&amp;id=2043302221" onclick="ChangeLanguage( &#39;schinese&#39; ); return false;">简体中文 (упрощенный китайский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=tchinese&amp;id=2043302221" onclick="ChangeLanguage( &#39;tchinese&#39; ); return false;">繁體中文 (традиционный китайский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=japanese&amp;id=2043302221" onclick="ChangeLanguage( &#39;japanese&#39; ); return false;">日本語 (японский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=koreana&amp;id=2043302221" onclick="ChangeLanguage( &#39;koreana&#39; ); return false;">한국어 (корейский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=thai&amp;id=2043302221" onclick="ChangeLanguage( &#39;thai&#39; ); return false;">ไทย (тайский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=bulgarian&amp;id=2043302221" onclick="ChangeLanguage( &#39;bulgarian&#39; ); return false;">Български (болгарский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=czech&amp;id=2043302221" onclick="ChangeLanguage( &#39;czech&#39; ); return false;">Čeština (чешский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=danish&amp;id=2043302221" onclick="ChangeLanguage( &#39;danish&#39; ); return false;">Dansk (датский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=german&amp;id=2043302221" onclick="ChangeLanguage( &#39;german&#39; ); return false;">Deutsch (немецкий)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=english&amp;id=2043302221" onclick="ChangeLanguage( &#39;english&#39; ); return false;">English (английский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=spanish&amp;id=2043302221" onclick="ChangeLanguage( &#39;spanish&#39; ); return false;">Español - España (испанский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=latam&amp;id=2043302221" onclick="ChangeLanguage( &#39;latam&#39; ); return false;">Español - Latinoamérica (испанский Лат. Ам.)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=greek&amp;id=2043302221" onclick="ChangeLanguage( &#39;greek&#39; ); return false;">Ελληνικά (греческий)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=french&amp;id=2043302221" onclick="ChangeLanguage( &#39;french&#39; ); return false;">Français (французский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=italian&amp;id=2043302221" onclick="ChangeLanguage( &#39;italian&#39; ); return false;">Italiano (итальянский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=hungarian&amp;id=2043302221" onclick="ChangeLanguage( &#39;hungarian&#39; ); return false;">Magyar (венгерский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=dutch&amp;id=2043302221" onclick="ChangeLanguage( &#39;dutch&#39; ); return false;">Nederlands (нидерландский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=norwegian&amp;id=2043302221" onclick="ChangeLanguage( &#39;norwegian&#39; ); return false;">Norsk (норвежский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=polish&amp;id=2043302221" onclick="ChangeLanguage( &#39;polish&#39; ); return false;">Polski (польский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=portuguese&amp;id=2043302221" onclick="ChangeLanguage( &#39;portuguese&#39; ); return false;">Português (португальский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=brazilian&amp;id=2043302221" onclick="ChangeLanguage( &#39;brazilian&#39; ); return false;">Português-Brasil (бразильский португальский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=romanian&amp;id=2043302221" onclick="ChangeLanguage( &#39;romanian&#39; ); return false;">Română (румынский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=russian&amp;id=2043302221" onclick="ChangeLanguage( &#39;russian&#39; ); return false;">Русский (Russian)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=finnish&amp;id=2043302221" onclick="ChangeLanguage( &#39;finnish&#39; ); return false;">Suomi (финский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=swedish&amp;id=2043302221" onclick="ChangeLanguage( &#39;swedish&#39; ); return false;">Svenska (шведский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=turkish&amp;id=2043302221" onclick="ChangeLanguage( &#39;turkish&#39; ); return false;">Türkçe (турецкий)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=vietnamese&amp;id=2043302221" onclick="ChangeLanguage( &#39;vietnamese&#39; ); return false;">Tiếng Việt (вьетнамский)</a>
+																																			<a class="popup_menu_item tight" href="https://steamcommunity.com/sharedfiles/filedetails/?l=ukrainian&amp;id=2043302221" onclick="ChangeLanguage( &#39;ukrainian&#39; ); return false;">Українська (украинский)</a>
+																															<a class="popup_menu_item tight" href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback" target="_blank">
+											Сообщить о проблеме с переводом										</a>
+									</div>
+								</div>
+													</div>
+					</div>
+					<script type="text/javascript">
+						RegisterFlyout( 'account_language_pulldown', 'language_dropdown', 'leftsubmenu', 'bottomsubmenu', true );
+					</script>
+											<div id="header_wallet_ctn">
+							<a class="global_action_link" id="header_wallet_balance" href="https://store.steampowered.com/account/store_transactions/">36,97 pуб.</a>
+						</div>
+												</div>
+							<a href="https://steamcommunity.com/id/andreym/" class="user_avatar playerAvatar offline">
+					<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3.jpg">
+				</a>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "647267c70cbb6eba75b5804f";
+	g_steamID = "76561198132982909";
+	g_strLanguage = "russian";
+	g_SNR = '2_100100_100101_100106';
+	g_bAllowAppImpressions = true
+		g_CommunityPreferences = {"hide_adult_content_violence":1,"hide_adult_content_sex":1,"parenthesize_nicknames":0,"text_filter_setting":1,"text_filter_ignore_friends":1,"text_filter_words_revision":0,"timestamp_updated":0};
+	
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+		InitMiniprofileHovers();
+		InitEmoticonHovers();
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.cloudflare.steamstatic.com\/public\/css\/skin_1\/economy.css?v=wliPEsKn4dhI&l=russian&_cdn=cloudflare", "https:\/\/community.cloudflare.steamstatic.com\/public\/javascript\/economy_common.js?v=tsXdRVB0yEaR&l=russian&_cdn=cloudflare", "https:\/\/community.cloudflare.steamstatic.com\/public\/javascript\/economy.js?v=p6346kfw8Chx&l=russian&_cdn=cloudflare" );});</script>
+	<div id="webui_config" style="display: none;" data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;russian&quot;,&quot;COUNTRY&quot;:&quot;RU&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.cloudflare.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steam\/apps\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1669142577,&quot;PAGE_TIMESTAMP&quot;:1669192486,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;windows&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.cloudflare.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;SNR&quot;:&quot;2_100100_100101_100106&quot;}" data-userinfo="{&quot;logged_in&quot;:true,&quot;steamid&quot;:&quot;76561198132982909&quot;,&quot;accountid&quot;:172717181,&quot;account_name&quot;:&quot;artur9523&quot;,&quot;is_support&quot;:false,&quot;is_limited&quot;:false,&quot;is_partner_member&quot;:false,&quot;country_code&quot;:&quot;RU&quot;}">
+	</div>
+<div id="application_config" style="display: none;" data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;russian&quot;,&quot;COUNTRY&quot;:&quot;RU&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.cloudflare.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.cloudflare.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/steam\/apps\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1669142577,&quot;PAGE_TIMESTAMP&quot;:1669192486,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;windows&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.cloudflare.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.cloudflare.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;SNR&quot;:&quot;2_100100_100101_100106&quot;}" data-userinfo="{&quot;logged_in&quot;:true,&quot;steamid&quot;:&quot;76561198132982909&quot;,&quot;accountid&quot;:172717181,&quot;account_name&quot;:&quot;artur9523&quot;,&quot;is_support&quot;:false,&quot;is_limited&quot;:false,&quot;is_partner_member&quot;:false,&quot;country_code&quot;:&quot;RU&quot;}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}"></div><link href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/manifest.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/libraries_b28b7af69.js.Без названия"></script>
+<script type="text/javascript" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/main.js.Без названия"></script>
+	<div id="application_root"><div></div></div>
+
+		<div class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true}">
+
+			<script type="text/javascript">
+	var publishedfileid = '2043302221';
+	var currentSectionID = '0';
+	var searchText = "";
+
+	addEvent( window, "scroll", CheckForVisibleYouTubeVideos, false);
+	addEvent( window, "scroll", OnScrollChangeGuideSection, false);
+
+	$J( function()
+	{
+		if ( window.parent && window.parent !== window && window.parent.OnModalContentLoaded )
+			window.parent.OnModalContentLoaded();
+
+				// fix the table of contents if the user tries to scroll past it
+		new FixedElementOnScrollWrapper( 'GuideTableOfContents', 60, true, 130, { fixedClass: 'fixed_in_scroll' } );
+
+		new FixedElementOnScrollWrapper( 'ScrollingItemControls', 0, false, 0, {fixedClass: 'fixed_in_scroll'} );
+		
+		// set the current selection
+		if ( location.hash.length > 1 )
+		{
+			SelectGuideSection( location.hash.substring( 1 ), 'scrollTo' );
+		}
+		else
+		{
+			var guideSection = GetGuideSection( publishedfileid );
+			if ( guideSection != null )
+			{
+				SelectGuideSection( guideSection, 'changeHash' );
+			}
+			else
+			{
+				var firstElem = $( "guideSectionSelection_0" );
+				firstElem.addClassName( 'selected' );
+			}
+		}
+
+		CheckForVisibleYouTubeVideos();
+	} );
+
+	function GetGuideSection( publishedfileid )
+	{
+		var sections = WebStorage.GetLocal('GuideSections');
+		if( sections && sections.length > 0 )
+		{
+			for( var i=0; i<sections.length; i++)
+			{
+				var section = sections[i];
+				if( section.id == publishedfileid )
+					return section.section;
+			}
+		}
+		return null;
+	}
+
+	function SaveGuideSection( publishedfileid, strSectionName )
+	{
+		var sections = WebStorage.GetLocal('GuideSections');
+		if( sections == null )
+			sections = [];
+
+		if( sections && sections.length > 0 )
+		{
+			for( var i=0; i<sections.length; i++)
+			{
+				var section = sections[i];
+				if( section.id == publishedfileid )
+				{
+					section.section = strSectionName;
+					WebStorage.SetLocal('GuideSections', sections );
+					return;
+				}
+			}
+		}
+		// Evict an item from the object to make room
+		if( sections.length > 25 )
+			sections.shift();
+
+		sections.push({ id: publishedfileid, section: strSectionName });
+		WebStorage.SetLocal('GuideSections', sections );
+	}
+
+	function onModalHidden()
+	{
+		// stop any videos
+		if (  typeof ytplayer != 'undefined' && ytplayer  )
+		{
+			ytplayer.stopVideo();
+		}
+	}
+
+	function ToggleSectionVisibility( browseBar, elementID )
+	{
+		if ( $(elementID).visible() )
+		{
+			$(browseBar).className = "rightSectionBrowseBar";
+			$(elementID).hide();
+		}
+		else
+		{
+			$(browseBar).className = "rightSectionBrowseBar toggled";
+			$(elementID).show();
+		}
+	}
+
+	Event.observe(window, 'dom:loaded', function() {
+		if ( searchText )
+		{
+			HighlightSearchText( searchText, $('highlightContent') );
+
+			var rgSections = $$('div.subSection' );
+			for ( var i = 0; i < rgSections.length; ++i )
+			{
+				var section = rgSections[i];
+				HighlightSearchText( searchText, section );
+			}
+		}
+	});
+
+</script>
+
+
+<div class="apphub_HomeHeaderContent">
+
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+			
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/320?snr=2_100100_100101_100106_apphubheader" data-appid="320">
+					<span>Страница в магазине</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/795e85364189511f4990861b578084deef086cb1.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">Half-Life 2: Deathmatch</div>
+		</div>
+		<div style="clear: both"></div>
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/320" class="apphub_sectionTab  "><span>Все</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/discussions/" class="apphub_sectionTab  "><span>Обсуждения</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/screenshots/" class="apphub_sectionTab  "><span>Скриншоты</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/images/" class="apphub_sectionTab  "><span>Иллюстрации</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/broadcasts/" class="apphub_sectionTab  "><span>Трансляции</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/videos/" class="apphub_sectionTab  "><span>Видео</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/allnews/" class="apphub_sectionTab  "><span>Новости</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/guides/" class="apphub_sectionTab active "><span>Руководства</span></a>
+		
+	<a href="https://steamcommunity.com/app/320/reviews/" class="apphub_sectionTab  "><span>Обзоры</span></a>
+				<div style="clear: left"></div>
+		</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select637ddb26d19cd">
+													<option value="https://steamcommunity.com/app/320">
+								Все							</option>
+													<option value="https://steamcommunity.com/app/320/discussions/">
+								Обсуждения							</option>
+													<option value="https://steamcommunity.com/app/320/screenshots/">
+								Скриншоты							</option>
+													<option value="https://steamcommunity.com/app/320/images/">
+								Иллюстрации							</option>
+													<option value="https://steamcommunity.com/app/320/broadcasts/">
+								Трансляции							</option>
+													<option value="https://steamcommunity.com/app/320/videos/">
+								Видео							</option>
+													<option value="https://steamcommunity.com/app/320/allnews/">
+								Новости							</option>
+													<option value="https://steamcommunity.com/app/320/guides/" selected="">
+								Руководства							</option>
+													<option value="https://steamcommunity.com/app/320/reviews/">
+								Обзоры							</option>
+											</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="responsive_tab_baseline nonresponsive_hidden"></div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">Half-Life 2: Deathmatch</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/320">
+						<span>Страница в магазине</span>
+					</a>
+											</div>
+								</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+	<div class="breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/320">Half-Life 2: Deathmatch</a>
+					<span class="breadcrumb_separator">&gt;&nbsp;</span><a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/320/guides/">Руководства</a>
+					<span class="breadcrumb_separator">&gt;&nbsp;</span><a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/id/noxieneverforget/myworkshopfiles/?section=guides&amp;appid=320">Руководства n0x!</a>
+						</div>
+
+<div id="ig_bottom" class="nobg mediaBody">
+
+			<div class="bannedNotification" id="bannedNotification" style="display: none">
+			Эта публикация удалена, так как она нарушает рекомендации по поведению и контенту в Steam. Её можете видеть только вы. Если вы уверены, что публикацию удалили по ошибке, свяжитесь со <a href="https://help.steampowered.com/ru/wizard/HelpWithSteamIssue/?issueid=415" target="_blank" rel="">службой поддержки Steam</a>.					</div>
+		<div class="incompatibleNotification" id="incompatibleNotification" style="display: none">
+							Этот предмет несовместим с Half-Life 2: Deathmatch. Пожалуйста, прочитайте <a href="https://steamcommunity.com/">справочную статью</a>, почему этот предмет может не работать в Half-Life 2: Deathmatch.					</div>
+
+		
+		
+		
+		
+		
+		<div class="visibilityNotification" id="visibilityNotificationPrivate" style="display: none">
+			<div class="currentVisibility">Доступность:&nbsp;для себя</div>
+			<div class="visibilityDesc">Этот предмет виден только вам, администраторам и тем, кто будет отмечен как создатель.</div>
+			<div style="clear:left"></div>
+		</div>
+		<div class="visibilityNotification" id="visibilityNotificationFriendsOnly" style="display: none">
+			<div class="currentVisibility">Доступность:&nbsp;только друзьям</div>
+			<div class="visibilityDesc">В результатах поиска этот предмет сможете видеть только вы, ваши друзья и администраторы.</div>
+			<div style="clear:left"></div>
+		</div>
+		
+		
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="guideTop">
+		<div id="detailsHeaderRight">
+			<!-- top level info -->
+							<div class="ratingSection">
+					<div class="fileRatingDetails"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/not-yet_large.png"></div>
+											Недостаточно оценок									</div>
+					</div>
+		<div class="guideTopContent">
+			<div class="guidePreviewImage">
+				<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/saved_resource">
+			</div>
+			<div class="workshopItemTitle">Half-Life 2: Deathmatch Dedicated Server Installation Guide [ENG/RUS]</div>
+			<div class="guideAuthors">От n0x! и соавторов</div>
+			<div class="dotHR"></div>
+			<div style="clear: left"></div>
+			<div class="guideTopDescription" id="highlightContent">A guide on how to install and start a Half-Life 2: Deathmatch Dedicated server.</div>
+		</div>
+		<div class="FixedElementOnScrollWrapper_padding" id="ScrollWrapperPadding_ScrollingItemControls" style="display: none;"></div><div class="workshopItemControlsCtn" id="ScrollingItemControls">
+				<div class="workshopItemControls" id="ItemControls">
+		<div class="workshopItemRatings">
+						<div class="review_award_ctn">
+							</div>
+		</div>
+		<div class="workshopItemControlCtn">
+							<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="VoteUp(2043302221);" id="VoteUpBtn" class="general_btn voteUp ">&nbsp;</span>
+				<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="VoteDown(2043302221);" id="VoteDownBtn" class="general_btn voteDown ">&nbsp;</span>
+					</div>
+
+		<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="PublishedFileAward( &#39;2043302221&#39;, 9 )" class="general_btn"><span><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/award_icon.svg" class="reward_btn_icon">Наградить</span></span>
+
+		
+		<div class="workshopItemControlCtn">
+			<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="FavoriteItem();" id="FavoriteItemBtn" class="general_btn favorite tooltip " data-tooltip-text="Вы с легкостью найдете это позже">
+				<div class="favoriteText">
+					<div id="FavoriteItemOptionAdd" class="favoriteOption addfavorite selected">В избранное</div>
+					<div id="FavoriteItemOptionFavorited" class="favoriteOption favorited ">В избранном</div>
+					<div class="favoriteOption removefavorite">Удалить</div>
+				</div>
+			</span>
+
+			
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="ShowSharePublishedFilePopup( &#39;2043302221&#39;, &#39;320&#39; );" id="ShareItemBtn" class="general_btn share tooltip" data-tooltip-text="Рассказать об этом в Steam или любимой социальной сети">Поделиться</span>
+					</div>
+
+		
+		
+		<div class="vertical_divider"></div>
+
+					<div class="workshopItemControlCtn">
+				<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="ReportItem();" id="ReportItemBtn" class="general_btn report tooltip " data-tooltip-text="Пожаловаться на нарушение правил поведения в Steam"></span>
+			</div>
+		
+		
+					<form class="smallForm" method="POST" name="PublishedFileSubscribe" id="PublishedFileSubscribe" action="https://steamcommunity.com/sharedfiles/subscribe">
+			<input type="hidden" name="id" value="2043302221">
+			<input type="hidden" name="appid" value="320">
+			<input type="hidden" name="sessionid" value="647267c70cbb6eba75b5804f">
+						</form>
+			<form class="smallForm" method="POST" name="PublishedFileUnsubscribe" id="PublishedFileUnsubscribe" action="https://steamcommunity.com/sharedfiles/unsubscribe">
+			<input type="hidden" name="id" value="2043302221">
+			<input type="hidden" name="appid" value="320">
+			<input type="hidden" name="sessionid" value="647267c70cbb6eba75b5804f">
+			</form>
+
+			<form class="smallForm" method="POST" name="PublishedFileFavorite" id="PublishedFileFavorite" action="https://steamcommunity.com/sharedfiles/favorite">
+			<input type="hidden" name="id" value="2043302221">
+						<input type="hidden" name="appid" value="320">
+						<input type="hidden" name="sessionid" value="647267c70cbb6eba75b5804f">
+			</form>
+			<form class="smallForm" method="POST" name="PublishedFileUnfavorite" id="PublishedFileUnfavorite" action="https://steamcommunity.com/sharedfiles/unfavorite">
+			<input type="hidden" name="id" value="2043302221">
+						<input type="hidden" name="appid" value="320">
+						<input type="hidden" name="sessionid" value="647267c70cbb6eba75b5804f">
+			</form>
+				<div id="action_wait" style="display: none;"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/throbber.gif"></div>
+	</div>
+
+	
+	<div id="JustFavorited" class="just_added_to_list" style="display: none">
+		<div class="just_added_favorite_icon"></div>
+		<div class="just_added_text">Этот предмет добавлен в <a href="https://steamcommunity.com/my/myworkshopfiles/?section=guides&amp;browsefilter=myfavorites">избранное</a>.</div>
+		<div class="close_notification"><span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="CloseNotification( &#39;JustFavorited&#39; );" class="close"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/ico_dialogue_close.png"></span></div>
+		<div style="clear:both"></div>
+	</div>		</div>
+		<div style="clear: both"></div>
+	</div>
+
+	<div id="sharedfiles_content_ctn">
+
+		<!-- right side contents -->
+		<div data-panel="{&quot;maintainY&quot;:true,&quot;onMoveDown&quot;:&quot;BlockMovement&quot;,&quot;onMoveUp&quot;:&quot;BlockMovement&quot;,&quot;flow-children&quot;:&quot;column&quot;}" id="rightContents" class="responsive_local_menu">
+			<div class="sidebar">
+				<!-- created by -->
+				<div class="panel">
+					
+<div class="rightSectionTopTitle condensed">Создатели:</div>
+<div class="rightDetailsBlock">
+	<div class="creatorsBlock">
+				<div data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" class="friendBlock persona in-game" data-miniprofile="201952029">
+						<a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/Foxmander"></a>
+															<div class="playerAvatar in-game">
+				<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/b9f4cb3f9be79a41400c47d267d4134c38f2818f_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				// Foxmander<br>
+				<span class="friendSmallText">
+		<span class="linkFriend_in-game">В игре<br>DOOM Eternal</span>
+				</span>
+			</div>
+		</div>
+				<div data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" class="friendBlock persona offline" data-miniprofile="399300851">
+						<a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/noxieneverforget"></a>
+															<div class="playerAvatar offline">
+				<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/d956bc4013e234d687e01e910297bd80cde68345_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				n0x!<br>
+				<span class="friendSmallText">
+		Не в сети
+				</span>
+			</div>
+		</div>
+			</div>
+</div>
+
+
+					<div class="hr padded"></div>	<div class="rightDetailsBlock">
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="workshopTags"><span class="workshopTagsTitle">Категория:&nbsp;</span><a href="https://steamcommunity.com/app/320/guides/?browsesort=trend&amp;filetype=11&amp;requiredtags%5B%5D=Modding+or+Configuration">Модификации или настройки</a>, <a href="https://steamcommunity.com/app/320/guides/?browsesort=trend&amp;filetype=11&amp;requiredtags%5B%5D=Multiplayer">Мультиплеер</a></div><div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="workshopTags"><span class="workshopTagsTitle">Languages:&nbsp;</span><a href="https://steamcommunity.com/app/320/guides/?browsesort=trend&amp;filetype=11&amp;requiredtags%5B%5D=English">Английский</a></div>	</div>
+
+					<div class="hr padded"></div>
+
+					<div class="rightDetailsBlock">
+						<div class="detailsStatsContainerLeft">
+							<div class="detailsStatLeft">Добавлен</div>
+														<div class="detailsStatLeft">Изменён</div>
+													</div>
+						<div class="detailsStatsContainerRight">
+							<div class="detailsStatRight">1 апр. 2020 в 14:24</div>
+														<div class="detailsStatRight">26 апр. 2020 в 13:49</div>
+													</div>
+						<div style="clear:left"></div>
+					</div>
+				</div>
+
+					<div class="panel">
+			<table class="stats_table">
+								<tbody><tr>
+					<td>377</td>
+					<td>уникальных посетителей</td>
+				</tr>
+												<tr>
+					<td>13</td>
+					<td>добавили в избранное</td>
+				</tr>
+			</tbody></table>
+	</div>
+			<!-- favorited by -->
+			
+				<div class="FixedElementOnScrollWrapper_padding" id="ScrollWrapperPadding_GuideTableOfContents" style="display: none;"></div><div class="panel responsive_OnClickDismissMenu" id="GuideTableOfContents">
+					<div class="rightSectionTopTitle">Оглавление руководства</div>
+
+					<div class="hr smallpadded"></div>
+
+					<div class="guideSubSectionSelection selected" id="guideSectionSelection_0">
+						<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+						<div class="guideSubSectionSelectionLink ellipsis">
+							<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="SelectGuideSection( &#39;0&#39;, &#39;changeHash&#39; )">Описание</span>
+						</div>
+					</div>
+					<div class="hr smallpadded"></div>
+
+												<div class="guideSubSectionSelection" id="guideSectionSelection_3498939">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3498939&#39;, &#39;changeHash&#39; )">Downloading SteamCMD | Скачивание SteamCMD</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3499006">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3499006&#39;, &#39;changeHash&#39; )">Downloading the server | Скачивание Сервера</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3498988">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3498988&#39;, &#39;changeHash&#39; )">Server Config | Конфиг Сервера</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3499010">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3499010&#39;, &#39;changeHash&#39; )">Installing SourceMod and MetaMod (OPTIONAL) | Установка SourceMod'а или MetaMod'a (ЕСЛИ НУЖНО)</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3499032">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3499032&#39;, &#39;changeHash&#39; )">Starting your server | Запуск Сервера</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3499045">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3499045&#39;, &#39;changeHash&#39; )">Port forwarding | Открытие Портов</span>&nbsp;
+								</div>
+							</div>
+														<div class="guideSubSectionSelection" id="guideSectionSelection_3549197">
+								<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+								<div class="guideSubSectionSelectionLink ellipsis">
+									<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;3549197&#39;, &#39;changeHash&#39; )">Contributions</span>&nbsp;
+								</div>
+							</div>
+							
+					<div class="hr smallpadded"></div>
+					<div class="guideSubSectionSelection" id="guideSectionSelection_-1">
+						<img class="browseOptionImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/filterselect_blue.png">
+						<div class="guideSubSectionSelectionLink ellipsis">
+							<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="javascript:SelectGuideSection( &#39;-1&#39;, &#39;changeHash&#39; )">Комментарии</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}" id="profileBlock" class="clearfix">
+
+			<div class="guide subSections">
+										<div class="subSection detailBox" id="3498939">
+							<div class="subSectionTitle">
+								Downloading SteamCMD | Скачивание SteamCMD															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br><div class="bb_h1"><b>Server location:</b></div><br>The first thing you want to do is create a folder where your server will be located. I would personally do something easy like creating a folder called "hl2dmserver" on my Desktop for example.<br><br><div class="bb_h1"><b>Setting up SteamCMD:</b></div><br><b>1. Now you need to download SteamCMD from valves website, which can be found <a class="bb_link" href="https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip" target="_blank" rel=""><u><b>here</b></u></a>.</b><br><b>2. Once downloaded <u>make a new folder for steamcmd</u>, and extract SteamCMD in there.</b><br><br>It should now look like this:<br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl="><img src="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><br><br><br><br><br><br><b>3. Now start SteamCMD and wait until it finishes updating, while it's updating it should be creating new folders and files in the directory you created.</b><br><br>Once SteamCMD is done it should look like this: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl="><img src="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><b>RUS</b><br><br><div class="bb_h1"><b>Расположение сервера:</b></div><br>Для начала вам следует создать папку с расположением сервера. Я же создам абсолютно нейтрально-названную папку "hl2dmserver" на своём рабочем столе, для примера.<br><br><div class="bb_h1"><b>Установка SteamCMD:</b></div><br><b>1. Теперь вам нужно скачать SteamCMD с сайта Valve, найти который можно <a class="bb_link" href="https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip" target="_blank" rel=""><u><b> здесь </b></u></a>.</b><br><b>2. Скачали? <u>сделайте новую папку для steamcmd</u>, и разархивируйте его в неё.</b><br><br>В итоге выйдет что-то подобное:<br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl="><img src="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><br><br><br><br><br><br><b>3. Запускайте SteamCMD. Он создаст нужную ему ерунду и, возможно, обновится. Просто ждите.</b><br><br>Когда SteamCMD закончит со своими прелюдиями это будет выглядеть так: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl="><img src="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3499006">
+							<div class="subSectionTitle">
+								Downloading the server | Скачивание Сервера															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br><b>Now in SteamCMD type the following commands:</b><br><div class="bb_code">login anonymous</div>Wait for it to login<br><div class="bb_code">force_install_dir (full path to where you want to install the server)</div>( for me that would be: force_install_dir C:\Users\idebo\Desktop\hl2dmserver )<br><div class="bb_code">app_update 232370 validate</div>This will download the hl2dm server.<br><div class="bb_code">exit</div>This will close SteamCMD<br><br><b>Now everything is downloaded, your server folder should look like this:</b><br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture2.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094280414%2FE58116A7F9718363C1088E7E62254610680BCE30%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture2.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><b>RUS</b><br><br><b>Вводим следующие команды в консольку SteamCMD:</b><br><div class="bb_code">login anonymous</div>Ожидай пока консоль залогинится<br><div class="bb_code">force_install_dir (ПОЛНЫЙ путь к месту где у тебя будет сервак)</div>( Для меня это как-то так: force_install_dir C:\Users\idebo\Desktop\hl2dmserver )<br><div class="bb_code">app_update 232370 validate</div>Это скачает hl2dm сервер.<br><div class="bb_code">exit</div>Закрываем SteamCMD<br><br><b>После всех команд и скачиваний получаем вот это:</b><br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture2.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094280414%2FE58116A7F9718363C1088E7E62254610680BCE30%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture2.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3498988">
+							<div class="subSectionTitle">
+								Server Config | Конфиг Сервера															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br><b>The server config is not included in the download, so you'll have to add it yourself. Go to \hl2mp\cfg, in here create a new file called "server" with the extension "cfg", which will make: server.cfg.<br><br>Then copy all of this code into the file:</b><br><br><div class="bb_code"> // HL2MP Server Config file
+// mostly the default settings with rate limits set to prevent massive lag
+// put this file (server.cfg) in the cfg folder (this file is for HL2DM SRCDS servers only)
+// qUiCkSiLvEr
+
+hostname "Half-Life 2 DeathMatch!"
+
+sv_hl2mp_weapon_respawn_time 20
+sv_hl2mp_item_respawn_time 30
+
+// set to 1 if this is a teamplay server
+mp_teamplay 1
+
+// allow or disallow damage from teammates
+mp_friendlyfire 0
+
+// how much damage is inflicted from falls, default 0
+mp_falldamage 0
+
+// set to 1 if weapons stay (immediate pickup by players without weapons)
+// requires that there be additional ammo (can't pick up a weapon to get more ammo)
+mp_weaponstay 0
+// set to force players to respawn after death
+mp_forcerespawn 1
+// enable player footstep sounds
+mp_footsteps 1
+// enable flashlight
+mp_flashlight 1
+// enable autocrosshair (default is 1)
+mp_autocrosshair 1
+// allow bots
+mp_allowNPCs 1
+// world gravity (default 600)
+sv_gravity 600
+// world friction (default 4)
+sv_friction 4
+// world water friction (default 1)
+sv_waterfriction 1
+// Minimum stopping speed when on ground
+sv_stopspeed 100
+// spectator settings
+sv_noclipaccelerate 5
+sv_noclipspeed 5
+sv_specaccelerate 5
+sv_specspeed 3
+sv_specnoclip 1
+// player movement acceleration rate (default 10)
+sv_accelerate 10
+sv_airaccelerate 10
+sv_wateraccelerate 10
+// max player speed (default 320)
+sv_maxspeed 320
+// misc physics settings, leave them as-is
+sv_rollspeed 200
+sv_rollangle 0
+sv_bounce 0
+// player stepsize - dont mess with this (default 18)
+sv_stepsize 18
+// misc default vehicle settings (leave these alone)
+//r_VehicleViewDampen 1
+//r_JeepViewDampenFreq 7.0
+//r_JeepViewDampenDamp 1.0
+//r_JeepViewZHeight 10.0
+//r_AirboatViewDampenFreq 7.0
+//r_AirboatViewDampenDamp 1.0
+//r_AirboatViewZHeight 0.0
+// teamplay talk all (1) or team only (0)
+sv_alltalk 1
+// enable voice on server
+sv_voiceenable 1
+// disable pause on server (set this to 0 always)
+sv_pausable 0
+// disable cheats (set this to 0 always)
+sv_cheats 0
+// teamserver coop (default 0)
+coop 0
+// deathmatch - set this to 1
+deathmatch 1
+// allow players to upload sprays (default 1)
+sv_allowupload 1
+// allow sprays and map content to be downloaded (default 1)
+sv_allowdownload 1
+// how often players can spray tags (default 20)
+decalfrequency 20
+// fast http download url address
+//sv_downloadurl
+// Enable instanced baselines - Saves network overhead
+sv_instancebaselines 0
+//Force server side preloading (default 0)
+sv_forcepreload 1
+// set fraglimit before mapchange
+mp_fraglimit 30
+// set timelimit before map change
+mp_timelimit 30
+// Max bandwidth rate allowed on server, 0 == unlimited
+sv_maxrate 9999
+// Min bandwidth rate allowed on server, 0 == unlimited
+sv_minrate 5000
+// Maximum updates per second that the server will allow (default 60)
+sv_maxupdaterate 30
+// Minimum updates per second that the server will allow (default 10)
+sv_minupdaterate 10
+// Maximum lag compensation in seconds (default 1)
+sv_maxunlag 1
+// explosion size (default 1)
+sv_robust_explosions 0
+// Maximum speed any ballistically moving object is allowed to attain per axis (default 3500)
+sv_maxvelocity 3000
+// rcon failure settings
+sv_rcon_banpenalty 0
+sv_rcon_maxfailures 10
+sv_rcon_minfailures 5
+sv_rcon_minfailuretime 30
+//The region of the world to report this server in (255 = world)
+sv_region 255
+// gather server statistics
+sv_stats 1
+//After this many seconds without a message from a client, the client is dropped (default 65)
+sv_timeout 65
+//Enables player lag compensation
+sv_unlag 1
+//Specifies which voice codec DLL to use in a game. Set to the name of the DLL without the extension
+// miles is the only voice codec available for Source games
+sv_voicecodec vaudio_miles
+//Enables HLTV on this server
+// do not enable HLTV for HL2DM servers right now
+sv_hltv 0
+//toggles whether the server allows spectator mode or not
+mp_allowspectators 0
+// If set to 1 then Server is a lan server (no heartbeat, no authentication, no non-class C addresses, 9999.0 rate, etc. )
+// set to 0 for internet server
+sv_lan 0
+// Server contact name / url / email
+sv_contact ""
+// server password for players to join (default "")
+//sv_password ""
+// execute SteamID based ban list
+// this file must be located in the cfg folder
+exec banned_user.cfg
+// execute IP based ban list
+// this file must be located in the cfg folder
+exec banned_ip.cfg
+// Set packet filtering by IP mode (default 1)
+sv_filterban 1
+// log all bans in logfile
+sv_logbans 1
+// enable logging and start log file (always last thing)
+sv_logfile 1
+log on
+</div><br><b>You can change this file to make changes to the server, for example: sv_password will set a server password and mp_teamplay 0 will turn off teamplay. </b><br><br><b>RUS</b><br><br><b>Про конфиг тоже не забываем. Нет, его у нас ещё нет. Идём в \hl2mp\cfg, и делаем файл "server" с расширением "cfg", и получаем: server.cfg.<br><br>Копируем всё, что ниже и вставляем в свой кфг:</b><br><br><div class="bb_code"> // HL2MP Сервер. Конфиг-Файл
+// В основном тут стандартные настройки
+// Засунь этот файл (server.cfg) в папку cfg (Этот файл только для HL2DM SRCDS серверов)
+// qUiCkSiLvEr
+
+hostname "Half-Life 2 DeathMatch !"
+
+sv_hl2mp_weapon_respawn_time 20
+sv_hl2mp_item_respawn_time 30
+
+// Тимплей сервер? Оставь 1. Нет? - 0
+mp_teamplay 1
+
+// Френдли фаер
+mp_friendlyfire 0
+
+// Урон от падения
+mp_falldamage 0
+
+// Бесконечное оружие
+// (Именно оружие, не патроны!)
+mp_weaponstay 0
+// Убирает задержку при респауне
+mp_forcerespawn 1
+// Звук шагов
+mp_footsteps 1
+// Включает фонарик
+mp_flashlight 1
+// Включает Autocrosshair
+mp_autocrosshair 1
+// Разрешает ботов
+mp_allowNPCs 1
+// Гравитация (дефолт - 600)
+sv_gravity 600
+// Friction мира (default 4)
+sv_friction 4
+// Friction воды (default 1)
+sv_waterfriction 1
+// Скорость остановки на земле
+sv_stopspeed 100
+// Настройки наблюдателя
+sv_noclipaccelerate 5
+sv_noclipspeed 5
+sv_specaccelerate 5
+sv_specspeed 3
+sv_specnoclip 1
+// Ускорение игрока (дефолт - 10)
+sv_accelerate 10
+sv_airaccelerate 10
+sv_wateraccelerate 10
+// Скорость игрока (дефолт - 320)
+sv_maxspeed 320
+// Ерунда с физикой, не лезьте сюда
+sv_rollspeed 200
+sv_rollangle 0
+sv_bounce 0
+//  Размер шага игрока (при высоком значении игра будет считать стены на ступеньку)
+sv_stepsize 18
+// Ерунда для машин
+//r_VehicleViewDampen 1
+//r_JeepViewDampenFreq 7.0
+//r_JeepViewDampenDamp 1.0
+//r_JeepViewZHeight 10.0
+//r_AirboatViewDampenFreq 7.0
+//r_AirboatViewDampenDamp 1.0
+//r_AirboatViewZHeight 0.0
+// войсчат для всех (1) или только для команды (0)
+sv_alltalk 1
+// Войсчат
+sv_voiceenable 1
+// Пауза
+sv_pausable 0
+// Читы
+sv_cheats 0
+// Тимсервер кооп
+coop 0
+// Режим ДМ
+deathmatch 1
+// Кастомные спреи
+sv_allowupload 1
+// Скачивать файлы новым игрокам?
+sv_allowdownload 1
+// Частота рисовки спреев
+decalfrequency 20
+// Быстрый обмен пакетами при скачивании
+//sv_downloadurl
+// Тоже что-то со скачиванием, лучше не трогать
+sv_instancebaselines 0
+// Пред-загрузка файлов сервером
+sv_forcepreload 1
+// Фраглимит прежде чем поменяется карта
+mp_fraglimit 30
+// То же, но со временем
+mp_timelimit 30
+
+sv_maxrate 9999
+
+sv_minrate 5000
+</div>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3499010">
+							<div class="subSectionTitle">
+								Installing SourceMod and MetaMod (OPTIONAL) | Установка SourceMod'а или MetaMod'a (ЕСЛИ НУЖНО)															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br>If you want to add addons to your server or use the admin menu you'll need to install SourceMod and MetaMod.<br><br><b><div class="bb_h1">Installing MetaMod:</div></b><br><b>1. Download MetaMod <a class="bb_link" href="https://steamcommunity.com/linkfilter/?url=http://www.metamodsource.net/downloads.php?branch=stable" target="_blank" rel=" noopener">here</a><span class="bb_link_host">[www.metamodsource.net]</span> (Download the one for windows)<br>2. Extract the zip file into your root folder (for me: C:\Users\idebo\Desktop\hl2dmserver\hl2mp)</b><br><br><b><div class="bb_h1">Installing SourceMod:</div></b><br><b>1. Download SourceMod: <a class="bb_link" href="https://steamcommunity.com/linkfilter/?url=http://www.sourcemod.net/downloads.php" target="_blank" rel=" noopener">here</a><span class="bb_link_host">[www.sourcemod.net]</span> (Again the one for windows) <br>2. Extract the zip file into your root folder (for me: C:\Users\idebo\Desktop\hl2dmserver\hl2mp)</b><br><br>It should look something like this:<br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture3.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094341135%2F98FCEABDC1496D1DA76A678388B5DEAF9CA03291%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture3.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><b>RUS</b><br><br>Если вам уж очень нужна админка на серверах, вам нужен СорсМод или МетаМод.<br><br><b>[h1Установка МетаМода:[/h1]</b><br><b>1. Скачайте метамод <a class="bb_link" href="https://steamcommunity.com/linkfilter/?url=http://www.metamodsource.net/downloads.php?branch=stable" target="_blank" rel=" noopener">here</a><span class="bb_link_host">[www.metamodsource.net]</span> (Для Windows)<br>2. Распакуйте его в корень (for me: C:\Users\idebo\Desktop\hl2dmserver\hl2mp)</b><br><br><b><div class="bb_h1">Установка сорсмода:</div></b><br><b>1. Скачайте сорсмод: <a class="bb_link" href="https://steamcommunity.com/linkfilter/?url=http://www.sourcemod.net/downloads.php" target="_blank" rel=" noopener">here</a><span class="bb_link_host">[www.sourcemod.net]</span> (Again the one for windows) <br>2. Распакуйте в корень (for me: C:\Users\idebo\Desktop\hl2dmserver\hl2mp)</b><br><br>Получаем такое:<br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture3.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094341135%2F98FCEABDC1496D1DA76A678388B5DEAF9CA03291%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture3.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3499032">
+							<div class="subSectionTitle">
+								Starting your server | Запуск Сервера															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br>To start your server you need to create a executable that starts "srcds.exe" with certain arguments.<br><br><b>1. Create a new file in the same folder where "srcds.exe" is called "startserver" with the extension "bat" so "startserver.bat" <br>2. In this file paste the following line: <div class="bb_code">start srcds.exe -console -game hl2mp -port 27015 +maxplayers 8 +exec server.cfg +map dm_overwatch
+exit</div>3. To start your server execute "startserver.bat"</b><br><br><b>RUS</b><br><br>Для запуска сервера создайте "srcds.exe" с такими аргументами как указано ниже.<br><br><b>1. Создайте новый файл в той же папке что и "srcds.exe" который назван "startserver" с расширением "bat" ("startserver.bat")<br>2.В файл вставьте эту строчку: <div class="bb_code">start srcds.exe -console -game hl2mp -port 27015 +maxplayers 8 +exec server.cfg +map dm_overwatch
+exit</div>3. Запустите "startserver.bat"</b>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3499045">
+							<div class="subSectionTitle">
+								Port forwarding | Открытие Портов															</div>
+							<div class="subSectionDesc">
+								<b>ENG</b><br><br>To allow other people join your server you have to open a port on your router to allow hl2dm internet traffic to pass trough.<br><br>This is relatively simple  depending on your router.<br><br><b>1. Open your routers web interface in your browser<br>2. Search for the port forwarding page<br>3. Type your IPv4 address and the game port: <u>27015</u>, both UDP and TCP <br>4. Now press enter and save the settings.</b><br><br>For me it looks something like this:<br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture4.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094381851%2F92FB82ED4C8FB662B50106C5104A3161D256E3C7%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture4.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a><br><b>RUS</b><br><br>Чтобы позволить людям зайти на ваш сервер, вам понадобится открыть порты для трафика.<br><br>! Для каждого провайдера или роутера свой способ, нагуглите эту информацию !<br>В моём же случае это делается так:<br><br><b>1. Открываем веб-интерфейс роутера в браузере<br>2. Ищем вкладку с портами<br>3. Вводим свой IPv4 и порт <u>27015</u>, обо UDP и TCP <br>4. Сохраняем настройки.</b><br><br>Получаем это:<br><a href="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture4.PNG" class="modalContentLink" data-modal-content-popup-url="https://steamcommunity.com/sharedfiles/displayimageformodaldialog/?imageurl=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F1011562618094381851%2F92FB82ED4C8FB662B50106C5104A3161D256E3C7%2F"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/2043302221_preview_Capture4.PNG" class="sharedFilePreviewImage sizeOriginal floatLeft" alt="" title=""></a>								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+												<div class="subSection detailBox" id="3549197">
+							<div class="subSectionTitle">
+								Contributions															</div>
+							<div class="subSectionDesc">
+								Thanks to <a class="bb_link" href="https://steamcommunity.com/id/CharmanderBY/" target="_blank" rel="">Charmander</a> for translating this guide to Russian :)								<div style="clear: both"></div>
+							</div>
+						</div>
+						<div style="clear: both"></div>
+									</div>
+
+			<div id="-1">
+				<div class="detailBox"><script type="text/javascript">
+	$J( function() {
+		InitializeCommentThread( "PublishedFile_Public", "PublishedFile_Public_76561198359566579_2043302221", {"feature":"2043302221","feature2":-1,"owner":"76561198359566579","total_count":9,"start":0,"pagesize":10,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"contributors\":[\"76561198359566579\",{},{}],\"appid\":320,\"sharedfile\":{\"m_parentsDetails\":null,\"m_parentBundlesDetails\":null,\"m_bundledChildren\":[],\"m_ownedBundledItems\":[]},\"parent_item_reported\":false}"}, 'https://steamcommunity.com/comment/PublishedFile_Public/', 40 );
+	} );
+</script>
+<div class="commentthread_area" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_area">
+	<div class="commentthread_header">
+		<div class="commentthread_paging " id="commentthread_PublishedFile_Public_76561198359566579_2043302221_pagecontrols" style="display: none;">
+						<a id="commentthread_PublishedFile_Public_76561198359566579_2043302221_pagebtn_prev" href="javascript:void(0);" class="pagebtn">&lt;</a>
+			<span id="commentthread_PublishedFile_Public_76561198359566579_2043302221_pagelinks" class="commentthread_pagelinks"></span>
+			<span id="commentthread_PublishedFile_Public_76561198359566579_2043302221_pagedropdown" class="commentthread_pagedropdown"><select><option value="0">1</option><option value="0">1</option></select></span>
+			<a id="commentthread_PublishedFile_Public_76561198359566579_2043302221_pagebtn_next" href="javascript:void(0);" class="pagebtn">&gt;</a>
+		</div>
+		<div class="commentthread_count">
+			<span class="ellipsis commentthread_count_label">
+									Комментариев: <span id="commentthread_PublishedFile_Public_76561198359566579_2043302221_totalcount">9</span>							</span>
+							<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="commentthread_subscribe_ctn " id="commentthread_PublishedFile_Public_76561198359566579_2043302221_subscribe_checkbox">
+					<span class="commentthread_subscribe_checkbox">
+						<span class="commentthread_subscribe_check"></span>
+					</span>
+					<span class="commentthread_subscribe_desc">
+						Подписаться					</span>
+				</div><span class="commentthread_subscribe_hint" data-tooltip-text="Подпишитесь, чтобы получать уведомления о новых комментариях."> (<span class="commentthread_subscribe_hint_q">?</span>)</span>
+					</div>
+		<div style="clear: both;"></div>
+	</div>
+				<form id="commentthread_PublishedFile_Public_76561198359566579_2043302221_form" name="commentthread_PublishedFile_Public_76561198359566579_2043302221_form" action="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" method="post" onsubmit="return false;">
+			<div class="commentthread_entry">
+				<div class="commentthread_user_avatar playerAvatar offline">
+										<a href="https://steamcommunity.com/id/andreym" data-miniprofile="172717181">
+												<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3.jpg" srcset="https://avatars.cloudflare.steamstatic.com/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3.jpg 1x, https://avatars.cloudflare.steamstatic.com/ee5de28cdfc8c47c436d4dafa3d6d5d7584603a3_medium.jpg 2x">											</a>
+				</div>
+				<div class="commentthread_entry_quotebox">
+					<textarea data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" rows="1" class="commentthread_textarea" name="commentthread_PublishedFile_Public_76561198359566579_2043302221_textarea" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_textarea" placeholder="Оставить комментарий" style="overflow: hidden; height: 40px;"></textarea>
+				</div>
+				<div class="commentthread_entry_submitlink" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_submit_container" style="display: none;">
+					<a class="btn_grey_black btn_small_thin" href="javascript:CCommentThread.FormattingHelpPopup( &#39;PublishedFile_Public&#39; );">
+						<span>Справка по форматированию</span>
+					</a>
+					&nbsp;
+					<span class="emoticon_container"><span class="emoticon_button small" id="emoticonbtn_637ddb26ddc37"></span></span><script type="text/javascript">new CEmoticonPopup( $J('#emoticonbtn_637ddb26ddc37'), $J('#commentthread_PublishedFile_Public_76561198359566579_2043302221_textarea'), "https:\/\/steamcommunity.com" );</script>					<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="btn_green_white_innerfade btn_small" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_submit">
+						<span>Отправить</span>
+					</span>
+				</div>
+				<div class="commentthread_entry_error" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_entry_error">
+									</div>
+			</div>
+		</form>
+				<div class="commentthread_comment_container" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_postcontainer">
+			<div class="commentthread_comments" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_posts">
+						
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_3203747834751721416" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/d956bc4013e234d687e01e910297bd80cde68345.jpg" srcset="https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345.jpg 1x, https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+					<bdi>n0x!</bdi></a>
+
+				
+				<span class="commentthread_workshop_authorbadge">&nbsp;[создатель]</span>
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="2 января 2022 в 21:43:15 MSK" data-timestamp="1641148995">
+					2 янв в 21:43&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;3203747834751721416&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_3203747834751721416">
+				Linux is the same process I think just get steam cmd for linux and make the executable a sh file			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_3203747834750853350" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/realmgebratik" data-miniprofile="168241586">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/6cba0424e27739a89123130546224452340c56b0.jpg" srcset="https://avatars.cloudflare.steamstatic.com/6cba0424e27739a89123130546224452340c56b0.jpg 1x, https://avatars.cloudflare.steamstatic.com/6cba0424e27739a89123130546224452340c56b0_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/realmgebratik" data-miniprofile="168241586">
+					<bdi>ELO LORD</bdi></a>
+
+				
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="2 января 2022 в 16:04:42 MSK" data-timestamp="1641128682">
+					2 янв в 16:04&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;3203747834750853350&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_3203747834750853350">
+				what about debian?			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2974027717630088627" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/d956bc4013e234d687e01e910297bd80cde68345.jpg" srcset="https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345.jpg 1x, https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+					<bdi>n0x!</bdi></a>
+
+				
+				<span class="commentthread_workshop_authorbadge">&nbsp;[создатель]</span>
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="1 декабря 2020 в 16:36:00 MSK" data-timestamp="1606829760">
+					1 дек. 2020 в 16:36&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2974027717630088627&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2974027717630088627">
+				It’s valves on config, from the steam website itself			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2974027717629595760" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/Xeogin" data-miniprofile="44115035">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/17d8a0070ae747b58fda536a4ed2ce2d1983767a.jpg" srcset="https://avatars.cloudflare.steamstatic.com/17d8a0070ae747b58fda536a4ed2ce2d1983767a.jpg 1x, https://avatars.cloudflare.steamstatic.com/17d8a0070ae747b58fda536a4ed2ce2d1983767a_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/Xeogin" data-miniprofile="44115035">
+					<bdi>[MO] Xeogin</bdi></a>
+
+				
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="1 декабря 2020 в 13:23:19 MSK" data-timestamp="1606818199">
+					1 дек. 2020 в 13:23&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2974027717629595760&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2974027717629595760">
+				I would like this, but the suggested config is terrible :(			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2270319347590905180" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/d956bc4013e234d687e01e910297bd80cde68345.jpg" srcset="https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345.jpg 1x, https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+					<bdi>n0x!</bdi></a>
+
+				
+				<span class="commentthread_workshop_authorbadge">&nbsp;[создатель]</span>
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="14 апреля 2020 в 12:49:51 MSK" data-timestamp="1586857791">
+					14 апр. 2020 в 12:49&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2270319347590905180&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2270319347590905180">
+				neat			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2270319347588498316" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561198406541711" data-miniprofile="446275983">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/79d3fe5839617eb83a9661071ed021dd56ac8a5b.jpg" srcset="https://avatars.cloudflare.steamstatic.com/79d3fe5839617eb83a9661071ed021dd56ac8a5b.jpg 1x, https://avatars.cloudflare.steamstatic.com/79d3fe5839617eb83a9661071ed021dd56ac8a5b_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198406541711" data-miniprofile="446275983">
+					<bdi>xX_Cum5had0wSn1p3rA$$@s1N69_Xx</bdi></a>
+
+				
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="13 апреля 2020 в 21:07:54 MSK" data-timestamp="1586801274">
+					13 апр. 2020 в 21:07&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2270319347588498316&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2270319347588498316">
+				worked for me			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2270319347587631674" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/d956bc4013e234d687e01e910297bd80cde68345.jpg" srcset="https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345.jpg 1x, https://avatars.cloudflare.steamstatic.com/d956bc4013e234d687e01e910297bd80cde68345_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/noxieneverforget" data-miniprofile="399300851">
+					<bdi>n0x!</bdi></a>
+
+				
+				<span class="commentthread_workshop_authorbadge">&nbsp;[создатель]</span>
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="13 апреля 2020 в 15:31:26 MSK" data-timestamp="1586781086">
+					13 апр. 2020 в 15:31&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2270319347587631674&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2270319347587631674">
+				did you test the guide? and did it work?			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2270319347585973492" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561198406541711" data-miniprofile="446275983">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/79d3fe5839617eb83a9661071ed021dd56ac8a5b.jpg" srcset="https://avatars.cloudflare.steamstatic.com/79d3fe5839617eb83a9661071ed021dd56ac8a5b.jpg 1x, https://avatars.cloudflare.steamstatic.com/79d3fe5839617eb83a9661071ed021dd56ac8a5b_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198406541711" data-miniprofile="446275983">
+					<bdi>xX_Cum5had0wSn1p3rA$$@s1N69_Xx</bdi></a>
+
+				
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="13 апреля 2020 в 4:40:24 MSK" data-timestamp="1586742024">
+					13 апр. 2020 в 4:40&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2270319347585973492&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2270319347585973492">
+				thanks, this helped a lot<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/lunar2020ratinablanket" alt=":lunar2020ratinablanket:" class="emoticon">			</div>
+								</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_2270319347577339904" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561198102473761" data-miniprofile="142208033">
+									<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/08d55d90adb76b17423802be5489e0a13fb52a11.jpg" srcset="https://avatars.cloudflare.steamstatic.com/08d55d90adb76b17423802be5489e0a13fb52a11.jpg 1x, https://avatars.cloudflare.steamstatic.com/08d55d90adb76b17423802be5489e0a13fb52a11_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198102473761" data-miniprofile="142208033">
+					<bdi>CrudMaster</bdi></a>
+
+				
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="10 апреля 2020 в 20:27:32 MSK" data-timestamp="1586539652">
+					10 апр. 2020 в 20:27&nbsp;
+				</span>
+								<div class="commentthread_comment_actions">
+					<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Скрыть сообщение и пожаловаться" onclick="CCommentThread.HideAndReport( &#39;PublishedFile_Public_76561198359566579_2043302221&#39;, &#39;2270319347577339904&#39;, 1 )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/notification_icon_flag_light.png"></a>				</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_2270319347577339904">
+				nice job<br>			</div>
+								</div>
+			</div>
+			</div>
+		</div>
+		<div class="commentthread_footer">
+			<div class="commentthread_paging" id="commentthread_PublishedFile_Public_76561198359566579_2043302221_fpagecontrols" style="display: none;">
+				<a id="commentthread_PublishedFile_Public_76561198359566579_2043302221_fpagebtn_prev" href="javascript:void(0);" class="pagebtn">&lt;</a>
+				<span id="commentthread_PublishedFile_Public_76561198359566579_2043302221_fpagelinks" class="commentthread_pagelinks"></span>
+				<span id="commentthread_PublishedFile_Public_76561198359566579_2043302221_fpagedropdown" class="commentthread_pagedropdown"><select><option value="0">1</option><option value="0">1</option></select></span>
+				<a id="commentthread_PublishedFile_Public_76561198359566579_2043302221_fpagebtn_next" href="javascript:void(0);" class="pagebtn">&gt;</a>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div></div> 			</div>
+		</div>
+
+	</div>
+
+
+	<div style="clear: both;"></div>
+</div>
+
+<div id="previewImageEnlarged" class="modal_frame_image" style="display:none;">
+	<div class="modal_box_preview_image">
+		<div class="modal_close_image"><a onclick="hideModal( &#39;previewImageEnlarged&#39; );"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/x9x9.gif" width="9" height="9" border="0" alt="Закрыть"></a></div>
+		<div><img id="enlargedImage" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/trans.gif"></div>
+	</div>
+</div>
+
+<div id="ShareOnSteamDialog" style="display: none">
+	<div id="ShareOnSteamDialogContents"></div>
+</div>
+
+<div id="SharePopup" style="display: none">
+	<div class="share_ctn">
+		<a class="share_controls_steam" onclick="ShareOnSteam();">
+			<span>Поделиться в своей ленте активности Steam</span>
+		</a>
+		<div class="share_controls_other">
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Facebook" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" title="Поделиться в Facebook"><span><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/facebook_large.png"></span></a></div>
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Twitter" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" title="Поделиться в Твиттере"><span><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/twitter_large.png"></span></a></div>
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Reddit" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2043302221" title="Поделиться на Reddit"><span><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/reddit_large.png"></span></a></div>
+		</div>
+		<div style="clear: left"></div>
+	</div>
+	<div class="share_controls_divider"></div>
+	<div class="share_controls_page_link">
+		<form onsubmit="return false;">
+			URL:&nbsp;<input type="input" id="SharePopupInput" value="" readonly="readonly">
+		</form>
+	</div>
+</div>	<div id="AddToCollectionDialog" style="display: none">
+		<div id="AddToCollectionDialogContents"></div>
+		<div id="AddToCollectionDialogLoading">Пожалуйста, подождите, пока мы найдем ваши коллекции для Half-Life 2: Deathmatch.</div>
+		<div id="AddToCollectionDialogNoEligibleCollections">Похоже, что для Half-Life 2: Deathmatch у вас нет ни одной коллекции. Нажмите <a href="https://steamcommunity.com/sharedfiles/editcollection/?appid=320">здесь</a>, чтобы создать ее.</div>
+	</div>
+	
+<div id="PromptModal" class="modal_frame_tags" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a onclick="hideModal( &#39;PromptModal&#39; )"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/x9x9.gif" width="9" height="9" border="0" alt="Закрыть"></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="updateKVTagsForm" id="PromptModalFormDiv">
+			<script>
+				function UpdateKVTagsSingle()
+				{
+					$('PromptModalForm').submit();
+				}
+			</script>
+			<form class="smallForm" method="POST" name="KVTagsUpdateFormSingle" id="PromptModalForm" action="https://steamcommunity.com/workshop/updatekvtags/">
+				<input type="hidden" name="id" value="2043302221">
+				<input type="hidden" name="sessionid" value="647267c70cbb6eba75b5804f">
+
+				<div class="box">
+					<div class="itemBulletArrow"></div>
+					<div class="title" id="PromptTitle"></div>
+					<p class="description" id="PromptDescription"></p>
+					<input type="text" class="titleField" name="value" id="PromptValue">
+				</div>
+
+
+				<a class="btn_green_white_innerfade btn_medium button" href="javascript:UpdateKVTagsSingle();"><span>Обновить</span></a>
+
+				<div style="clear:both"></div>
+			</form>
+		</div>
+	</div>
+</div>
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 320, '2_100100_100101_100106' );
+		</script>
+			<div id="footer_spacer" class=""></div>
+	<div id="footer_responsive_optin_spacer"></div>
+	<div id="footer">
+					<div class="footer_content">
+				<span id="footerLogo"><img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/footerLogo_valve.png" width="96" height="26" border="0" alt="Логотип Valve"></span>
+				<span id="footerText">
+					© Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах. Часть географических сведений на этом сайте предоставлена <a href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org" target="_blank" rel=" noopener">geonames.org</a>.					<br>
+											<span class="valve_links">
+							<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Политика конфиденциальности</a>
+							&nbsp; | &nbsp;<a href="https://store.steampowered.com/legal/" target="_blank">Правовая информация</a>
+							&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Соглашение подписчика Steam</a>
+                            &nbsp;| &nbsp;<a href="http://store.steampowered.com/account/cookiepreferences/" target="_blank">Файлы cookie</a>
+						</span>
+									</span>
+			</div>
+							<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" onclick="Responsive_RequestMobileView()">
+					<span>Мобильная версия</span>
+				</div>
+			</div>
+			</div>
+	
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+
+<div class="miniprofile_hover" style="left: 799px; top: 526px; display: none; opacity: 1;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"><div class="miniprofile_container">
+	<!-- Background -->
+			<div class="miniprofile_nameplatecontainer">
+			<video class="miniprofile_nameplate" playsinline="" autoplay="" muted="" loop="">
+									<source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1675200/9409613f915e1ab1155bc08977582338d8f87765.webm" type="video/webm">
+									<source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1675200/acfe22ebab152780fc2e2545f82e237be9e793de.mp4" type="video/mp4">
+							</video>
+		</div>
+		<div class="miniprofile_playersection text_shadow">
+		<!-- Player avatar/name stuff -->
+				<div class="playersection_avatar_frame">
+			<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/f97317f30b106c08ab649e455471f1be605a8c0f.png">
+		</div>
+				<div class="playersection_avatar border_color_in-game">
+							<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/b9f4cb3f9be79a41400c47d267d4134c38f2818f_medium.jpg" srcset="https://avatars.cloudflare.steamstatic.com/b9f4cb3f9be79a41400c47d267d4134c38f2818f_medium.jpg 1x, https://avatars.cloudflare.steamstatic.com/b9f4cb3f9be79a41400c47d267d4134c38f2818f_full.jpg 2x">					</div>
+		<div class="player_content">
+			<span class="persona in-game">// Foxmander</span>
+								</div>
+	</div>
+			<div class="miniprofile_gamesection miniprofile_backdropblur miniprofile_backdrop">
+			<img class="game_logo" src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/capsule_184x69.jpg">
+			<div class="miniprofile_game_details">
+				<span class="game_state">В игре</span>
+				<span class="miniprofile_game_name">DOOM Eternal</span>
+									<span class="rich_presence">Проходит кампанию: База сектантов</span>
+							</div>
+		</div>
+		<div class="miniprofile_detailssection miniprofile_backdropblur ">
+				<div class="miniprofile_featuredcontainer">
+			<img src="./Сообщество Steam __ Руководство __ Half-Life 2_ Deathmatch Dedicated Server Installation Guide [ENG_RUS]_files/steamyears8_54.png" class="badge_icon">
+			<div class="description">
+				<div class="name">Выслуга лет</div>
+				<div class="xp">400 ед. опыта</div>
+			</div>
+		</div>
+				<div class="miniprofile_featuredcontainer">
+			<div class="friendPlayerLevel lvl_80"><span class="friendPlayerLevelNum">81</span></div>			<div class="description">
+				<div class="name">Уровень Steam</div>
+			</div>
+		</div>
+	</div>
+		</div></div></div><div class="FullModalOverlay" style="display: none;"><div class="ModalOverlayContent ModalOverlayBackground"></div></div></body></html>
