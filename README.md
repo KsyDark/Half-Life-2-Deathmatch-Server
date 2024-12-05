@@ -6,4 +6,4 @@
 Instructions and software kit for creating your own Half-Life 2 Deathmatch server
 
 The instructions were written for local game via Radmin VPN. You will be able to play with your friends, but you will need to create your own network in Radmin VPN.
-https://drive.google.com/file/d/1E-EkwNy79qtess4qc3pwDLO5dv26fiyN/view
+https://drive.google.com/file/d/1E-EkwNy79qtess4qc3pwDLO5dv26fiyN/view?usp=sharing
